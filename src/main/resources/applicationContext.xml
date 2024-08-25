@@ -10,4 +10,9 @@
           class="ru.chernov.spring.ClassicalMusic">
     </bean>
 
+    <bean id="musicPlayer"
+          class="ru.chernov.spring.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
