@@ -1,7 +1,10 @@
 package ru.chernov.spring;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MusicPlayer {
-    private Music music;
+    private List<Music> music = new ArrayList<>();
     private String name;
     private int volume;
 
@@ -15,12 +18,12 @@ public class MusicPlayer {
     public MusicPlayer() { }
 
     //setMusic - Spring understand setMusic as music. Therefore, we point music as name in applicationContext.xml
-    public void setMusic(Music music) {
+    public void setMusic(List<Music> music) {
         this.music = music;
     }
 
     public void playMusic() {
-        System.out.println(music.getSong());
+        music.forEach(s -> System.out.println(s.getSong()));
     }
 
     public String getName() {

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 5 Dependency Injection">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 6 Dependency Injection 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724600869928</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Alyshev Lesson 6 Dependency Injection 2">
+      <created>1724778249872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724778249872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +123,7 @@
     <MESSAGE value="Alyshev Lesson 3" />
     <MESSAGE value="Alyshev Lesson 4 Inverion of control" />
     <MESSAGE value="Alyshev Lesson 5 Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 5 Dependency Injection" />
+    <MESSAGE value="Alyshev Lesson 6 Dependency Injection 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 6 Dependency Injection 2" />
   </component>
 </project>
