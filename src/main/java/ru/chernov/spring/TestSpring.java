@@ -8,6 +8,14 @@ public class TestSpring {
 
         MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
         player.playMusic();
+        /**
+         * At the background Spring do next:
+         * 1. MusicPlayer musicPlayer1 = new MusicPlayer();
+         * 2. musicPlayer1.setMusic(ClassicalMusic); //ClassicalMusic per applicationContext
+         */
+
+        System.out.println(player.getName());
+        System.out.println(player.getVolume());
 
         context.close();
     }
