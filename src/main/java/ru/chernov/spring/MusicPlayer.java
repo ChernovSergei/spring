@@ -41,4 +41,12 @@ public class MusicPlayer {
     public void setVolume(int volume) {
         this.volume = volume;
     }
+
+    public void doMyInit() {
+        System.out.println("player initiation");
+    }
+
+    public void doMyDestroy() {
+        System.out.println("player destruction");
+    }
 }
