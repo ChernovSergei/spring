@@ -1,4 +1,4 @@
-package ru.chernov.spring;
+package ru.chernov.spring.xml;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class MusicPlayer {
 
     public MusicPlayer() { }
 
-    //setMusic - Spring understand setMusic as music. Therefore, we point music as name in applicationContext.xml
+    //setMusic - Spring understand setMusic as music. Therefore, we point music as name in applicationContextXML.xml
     public void setMusic(List<Music> music) {
         this.music = music;
     }

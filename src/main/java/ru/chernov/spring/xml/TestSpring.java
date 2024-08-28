@@ -1,10 +1,10 @@
-package ru.chernov.spring;
+package ru.chernov.spring.xml;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContextXML.xml");
 
         MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
         MusicPlayer player2 = context.getBean("musicPlayer", MusicPlayer.class);

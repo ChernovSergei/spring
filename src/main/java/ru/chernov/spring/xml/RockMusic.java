@@ -1,4 +1,4 @@
-package ru.chernov.spring;
+package ru.chernov.spring.xml;
 
 public class RockMusic implements Music {
 
