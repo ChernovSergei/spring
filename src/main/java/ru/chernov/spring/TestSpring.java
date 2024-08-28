@@ -7,6 +7,8 @@ public class TestSpring {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
+        MusicPlayer player2 = context.getBean("musicPlayer", MusicPlayer.class);
+
         player.playMusic();
         /**
          * At the background Spring do next:
@@ -16,6 +18,8 @@ public class TestSpring {
 
         System.out.println(player.getName());
         System.out.println(player.getVolume());
+
+        System.out.println(player == player2);
 
         context.close();
     }
