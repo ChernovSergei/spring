@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 10 Autowired 2">
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 10 Autowired 4">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" afterDir="false" />
     </list>
@@ -166,7 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1725293172712</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Alyshev Lesson 10 Autowired 3">
+      <created>1725293525014</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725293525014</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Alyshev Lesson 10 Autowired 3">
+      <created>1725293612444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725293612444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Alyshev Lesson 10 Autowired 4">
+      <created>1725293655613</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725293655613</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +212,8 @@
     <MESSAGE value="Alyshev Lesson 9 Annotations" />
     <MESSAGE value="Alyshev Lesson 10 Autowired 1" />
     <MESSAGE value="Alyshev Lesson 10 Autowired 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 10 Autowired 2" />
+    <MESSAGE value="Alyshev Lesson 10 Autowired 3" />
+    <MESSAGE value="Alyshev Lesson 10 Autowired 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 10 Autowired 4" />
   </component>
 </project>
