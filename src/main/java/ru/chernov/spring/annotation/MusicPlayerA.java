@@ -11,6 +11,7 @@ public class MusicPlayerA {
         this.music = music;
     }
 
+    @Autowired
     public void setMusic(MusicA music) {
         this.music = music;
     }
