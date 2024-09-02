@@ -14,8 +14,7 @@ public class MusicPlayerA {
         this.rapMusic = rapMusic;
     }
 
-    public void playMusic() {
-        System.out.println("Playing " + jazzMusic.getSong());
-        System.out.println("Reading " + rapMusic.getSong());
+    public String playMusic() {
+        return "Playing " + jazzMusic.getSong() + " and playing " + rapMusic.getSong();
     }
 }

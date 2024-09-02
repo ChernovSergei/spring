@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 10 Autowired 4">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" afterDir="false" />
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 10 Autowired 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725293655613</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Alyshev Lesson 10 Autowired 5">
+      <created>1725293918377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725293918377</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +220,7 @@
     <MESSAGE value="Alyshev Lesson 10 Autowired 2" />
     <MESSAGE value="Alyshev Lesson 10 Autowired 3" />
     <MESSAGE value="Alyshev Lesson 10 Autowired 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 10 Autowired 4" />
+    <MESSAGE value="Alyshev Lesson 10 Autowired 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 10 Autowired 5" />
   </component>
 </project>

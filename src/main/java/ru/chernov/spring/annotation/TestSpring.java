@@ -1,6 +1,7 @@
 package ru.chernov.spring.annotation;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Component;
 
 public class TestSpring {
     public static void main(String[] args) {
@@ -15,9 +16,12 @@ public class TestSpring {
         player = new MusicPlayerA(music2);
         player.playMusic();*/
 
-        MusicPlayerA musicPlayerA = context.getBean("musicPlayerA", MusicPlayerA.class);
+        //MusicPlayerA musicPlayerA = context.getBean("musicPlayerA", MusicPlayerA.class);
 
-        musicPlayerA.playMusic();
+        //musicPlayerA.playMusic();
+
+        Computer computer = context.getBean("computer", Computer.class);
+        System.out.println(computer.toString());
 
         context.close();
     }
