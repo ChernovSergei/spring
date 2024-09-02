@@ -1,9 +1,12 @@
 package ru.chernov.spring.annotation;
 
-public class MusicPlayerA {
-    private MusicA music;
+import org.springframework.stereotype.Component;
 
-    public MusicPlayerA(MusicA music) {
+@Component
+public class MusicPlayerA {
+    private JazzMusic music;
+
+    public MusicPlayerA(JazzMusic music) {
         this.music = music;
     }
 

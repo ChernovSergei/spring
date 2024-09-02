@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 8 bean lifecycle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/RapMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextAnnotation.xml" afterDir="false" />
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 9 Annotations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/PopMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/xml/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/TestSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724856224445</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alyshev Lesson 9 Annotations">
+      <created>1724860562536</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724860562536</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +175,7 @@
     <MESSAGE value="Alyshev Lesson 6 Dependency Injection home work" />
     <MESSAGE value="Alyshev Lesson 7 bean scope" />
     <MESSAGE value="Alyshev Lesson 8 bean lifecycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 8 bean lifecycle" />
+    <MESSAGE value="Alyshev Lesson 9 Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 9 Annotations" />
   </component>
 </project>
