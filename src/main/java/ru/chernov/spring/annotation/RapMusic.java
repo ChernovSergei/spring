@@ -2,13 +2,22 @@ package ru.chernov.spring.annotation;
 
 import org.springframework.stereotype.Component;
 
-@Component("musicBean")
+import java.util.ArrayList;
+import java.util.List;
+
+@Component
 public class RapMusic implements MusicA {
 
-    private RapMusic() { }
+    private List<String> songs = new ArrayList<>();
+
+    {
+        songs.add("Eminem");
+        songs.add("50 cents");
+        songs.add("Snoop Dog");
+    }
 
     @Override
-    public String getSong() {
-        return "Rap music";
+    public List<String> getSong() {
+        return songs;
     }
 }
