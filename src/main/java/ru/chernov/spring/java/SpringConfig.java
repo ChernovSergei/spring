@@ -5,6 +5,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Configuration
 @ComponentScan("ru.chernov.spring.java")
 @PropertySource("classpath:musicPlayer2.properties")
@@ -20,8 +23,22 @@ public class SpringConfig {
     }
 
     @Bean
+    public FalkMusic falkMusic() {
+        return new FalkMusic();
+    }
+
+    @Bean
+    public MusicTypes musicTypes() {
+        List<MusicJ> musicJList = new ArrayList<>();
+        musicJList.add(bean1());
+        musicJList.add(bean2());
+        musicJList.add(falkMusic());
+        return new MusicTypes(musicJList);
+    }
+
+    @Bean
     public MusicPlayerJ bean3() {
-        return new MusicPlayerJ(bean1(), bean2());
+        return new MusicPlayerJ(musicTypes().getMusicJList());
     }
 
     @Bean

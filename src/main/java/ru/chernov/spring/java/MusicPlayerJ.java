@@ -1,19 +1,19 @@
 package ru.chernov.spring.java;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class MusicPlayerJ {
-    private MusicJ music1;
-    private MusicJ music2;
+    List<MusicJ> musicJList = new ArrayList<>();
 
-    public MusicPlayerJ(MusicJ music1, MusicJ music2) {
-        this.music1 = music1;
-        this.music2 = music2;
+    public MusicPlayerJ(List<MusicJ> list) {
+        this.musicJList = list;
     }
 
     public String playMusic() {
-        return "Playing " + music1.getSong() + " " + music2.getSong();
+        Random random = new Random();
+        int songNumber = random.nextInt(3);
+        return musicJList.get(songNumber).getSong();
     }
 }

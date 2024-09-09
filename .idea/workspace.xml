@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 13 Autowired">
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 13 Manual Injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/FalkMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/MusicTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/CountryMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/CountryMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/MusicPlayerJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/MusicPlayerJ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/TechnoMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/TechnoMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/TestSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725873461766</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Alyshev Lesson 13 Manual Injection">
+      <created>1725873988325</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725873988325</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +303,7 @@
     <MESSAGE value="Alyshev Lesson 11 Autowired Home work" />
     <MESSAGE value="Alyshev Lesson 12 scope and values" />
     <MESSAGE value="Alyshev Lesson 13 Autowired" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 13 Autowired" />
+    <MESSAGE value="Alyshev Lesson 13 Manual Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 13 Manual Injection" />
   </component>
 </project>
