@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 11 Autowired 8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicTypes.java" afterDir="false" />
+    <list default="true" id="3fe35174-947b-4d64-8ab4-e87e8d5d2a27" name="Changes" comment="Alyshev Lesson 11 Autowired Home work">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/java/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/JazzMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/MusicPlayerA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/RapMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/RapMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/chernov/spring/annotation/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContextAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContextAnnotation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -221,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725461860840</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Alyshev Lesson 11 Autowired Home work">
+      <created>1725812829792</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725812829792</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +262,8 @@
     <MESSAGE value="Alyshev Lesson 10 Autowired 6" />
     <MESSAGE value="Alyshev Lesson 11 Autowired 7" />
     <MESSAGE value="Alyshev Lesson 11 Autowired 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 11 Autowired 8" />
+    <MESSAGE value="Alyshev Lesson 11 Autowired Home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alyshev Lesson 11 Autowired Home work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

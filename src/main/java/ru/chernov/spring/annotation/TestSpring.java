@@ -23,6 +23,17 @@ public class TestSpring {
         Computer computer = context.getBean("computer", Computer.class);
         System.out.println(computer.toString());
 
+        JazzMusic jazzMusic1 = context.getBean("jazzMusic", JazzMusic.class);
+        JazzMusic jazzMusic2 = context.getBean("jazzMusic", JazzMusic.class);
+        RapMusic rapMusic1 = context.getBean("rapMusic", RapMusic.class);
+        RapMusic rapMusic2 = context.getBean("rapMusic", RapMusic.class);
+
+        System.out.println();
+        System.out.print("when prototype, the classes are different. The class pointers are equals = ");
+        System.out.println(jazzMusic1 == jazzMusic2);
+
+        System.out.print("when singleton, the classes are the same. The class pointers are equals = ");
+        System.out.println(rapMusic1 == rapMusic2);
         context.close();
     }
 }
